@@ -8,7 +8,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 recipes: Recipe[] = [
-  new Recipe('jajuwa', 'wbic jaja i usmazyc', 'https://www.zajadam.pl/wp-content/uploads/2015/11/jajecznica-3-2-891x500.jpg' )
+  new Recipe('jajuwa', 'wbic jaja i usmazyc', 'https://www.zajadam.pl/wp-content/uploads/2015/11/jajecznica-3-2-891x500.jpg' ),
+  new Recipe('bigos', 'posiekac kapuhe i wlozyc do gara', 'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/bigos_z_kiszonej_kapusty_01_0.jpg' )
 ];
 
   constructor() { }
